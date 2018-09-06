@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Data_Structures.dir/LinkedList.cpp.o CMakeFiles/Data_Structures.dir/Stack.cpp.o CMakeFiles/Data_Structures.dir/Queue.cpp.o CMakeFiles/Data_Structures.dir/BinarySearchTree.cpp.o  -o Data_Structures 

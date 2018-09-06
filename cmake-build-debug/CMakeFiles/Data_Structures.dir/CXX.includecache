@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jay/Desktop/Programs/C++/Data Structures/BinarySearchTree.cpp
+BinarySearchTree.h
+/Users/jay/Desktop/Programs/C++/Data Structures/BinarySearchTree.h
+
+/Users/jay/Desktop/Programs/C++/Data Structures/BinarySearchTree.h
+iostream
+-
+
+/Users/jay/Desktop/Programs/C++/Data Structures/LinkedList.cpp
+LinkedList.h
+/Users/jay/Desktop/Programs/C++/Data Structures/LinkedList.h
+
+/Users/jay/Desktop/Programs/C++/Data Structures/LinkedList.h
+
+/Users/jay/Desktop/Programs/C++/Data Structures/Queue.cpp
+LinkedList.h
+/Users/jay/Desktop/Programs/C++/Data Structures/LinkedList.h
+Queue.h
+/Users/jay/Desktop/Programs/C++/Data Structures/Queue.h
+
+/Users/jay/Desktop/Programs/C++/Data Structures/Queue.h
+iostream
+-
+LinkedList.h
+/Users/jay/Desktop/Programs/C++/Data Structures/LinkedList.h
+
+/Users/jay/Desktop/Programs/C++/Data Structures/Stack.cpp
+LinkedList.h
+/Users/jay/Desktop/Programs/C++/Data Structures/LinkedList.h
+Stack.h
+/Users/jay/Desktop/Programs/C++/Data Structures/Stack.h
+
+/Users/jay/Desktop/Programs/C++/Data Structures/Stack.h
+iostream
+-
+LinkedList.h
+/Users/jay/Desktop/Programs/C++/Data Structures/LinkedList.h
+
