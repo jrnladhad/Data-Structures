@@ -36,21 +36,3 @@ int queue::front() {
 int queue::back() {
     return tail == nullptr ? -1:tail->data;
 }
-
-/*
-int main(){
-    queue q1;
-    q1.enqueue(1);
-    q1.enqueue(2);
-    q1.enqueue(3);
-    q1.enqueue(4);
-    q1.enqueue(5);
-    q1.dequeue();
-    q1.dequeue();
-    q1.dequeue();
-    q1.dequeue();
-    std::cout<<"Number of elements: "<<q1.getCount()<<std::endl;
-    std::cout<<"Front:"<<q1.front()<<"\tBack:"<<q1.back()<<std::endl;
-    q1.dequeue();
-    return 0;
-}*/

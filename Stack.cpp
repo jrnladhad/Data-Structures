@@ -32,4 +32,3 @@ void stack::pop() {
 int stack::top() {
     return tail == nullptr ? -1 : tail->data;
 }
-
