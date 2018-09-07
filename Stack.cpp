@@ -1,5 +1,4 @@
 //Necessary header libraries.
-#include "LinkedList.h"
 #include "Stack.h"
 
 //Stack data structure using doubly linked list. Pushing and popping elements occur in constant time, O(1).
