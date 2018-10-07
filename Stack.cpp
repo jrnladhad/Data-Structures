@@ -1,6 +1,8 @@
 //Necessary header libraries.
 #include "Stack.h"
 
+using namespace STACK;
+using namespace LL;
 //Stack data structure using doubly linked list. Pushing and popping elements occur in constant time, O(1).
 //Pushing and Popping both occur at the end of the linked list.
 

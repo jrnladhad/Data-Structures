@@ -5,33 +5,36 @@
 #include <iostream>
 #include "LinkedList.h"
 
-//Derived class, queue which inherits from linkedList.
-class queue: private linkedList{
-private:
+namespace QUEUE{
+    //Derived class, queue which inherits from linkedList.
+    class queue: private LL::linkedList{
+    private:
 
-    //Keeps a count of the number of elements in the stack.
-    int count = 0;
+        //Keeps a count of the number of elements in the stack.
+        int count = 0;
 
-    //Functions to manipulate the value of count.
-    void incrementCount() {count++;}
-    void decrementCount() {count--;}
+        //Functions to manipulate the value of count.
+        void incrementCount() {count++;}
+        void decrementCount() {count--;}
 
-public:
+    public:
 
-    //Inserts data into queue.
-    void enqueue(int val) {createNode(val); incrementCount();}
+        //Inserts data into queue.
+        void enqueue(int val) {createNode(val); incrementCount();}
 
-    //Removes data from queue.
-    void dequeue();
+        //Removes data from queue.
+        void dequeue();
 
-    //Returns the start of the queue.
-    int front();
+        //Returns the start of the queue.
+        int front();
 
-    //Returns the end of the queue.
-    int back();
+        //Returns the end of the queue.
+        int back();
 
-    //Returns the count of elements in the queue.
-    int getCount() {return count;}
-};
+        //Returns the count of elements in the queue.
+        int getCount() {return count;}
+    };
+}
+
 
 #endif //DATA_STRUCTURES_QUEUE_H

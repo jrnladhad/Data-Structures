@@ -1,6 +1,7 @@
 //Necessary header libraries.
 #include "LinkedList.h"
 
+using namespace LL;
 //Function definition for creating node and adding it to the linked list.
 void linkedList::createNode(int val) {
 

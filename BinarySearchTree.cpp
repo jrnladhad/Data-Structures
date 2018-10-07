@@ -9,6 +9,8 @@
 //                 c. Deletion - Worst case: O(n)
 //                               Best case: O(log n)
 
+using namespace BST;
+
 //Utility function for insertion of elements into binary search tree.
 binarySearchTree::bstNodes* binarySearchTree::insertUtil(binarySearchTree::bstNodes *curr, int val) {
     if(curr == nullptr){

@@ -1,6 +1,7 @@
 //Necessary header libraries.
 #include "Queue.h"
 
+using namespace QUEUE;
 //Queue data structure using doubly linked list. Enqueue and Dequeue operation occurs in constant time O(1).
 //Enqueue operation is at the end of the linked list. Dequeue operation is at the start of the linked list.
 
